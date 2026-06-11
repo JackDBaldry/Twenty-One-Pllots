@@ -19,13 +19,14 @@ Screenshot
 Screenshot showing initial options and a single selection
 
 Code
-(code/TwentyOnePllots.ipynb) – Interactive notebook
-code/TwentyOnePllots.py – Plain Python script
-code/TwentyOnePllots_TestSuite.py – Plain Python script of automated tests for each story ending
+[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb) – Interactive notebook
+[code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
+[code/TwentyOnePllots_TestSuite.py](code/TwentyOnePllots_TestSuite.py) – Plain Python script of automated tests for each story ending
+
 How to Open
 On GitHub:
 
-Click `code/TwentyOnePllots.ipynb' to view directly.
+Click `[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb)' to view directly.
 
 In Google Colab: Open In Colab
 
@@ -35,15 +36,15 @@ Tests
 To run all automated ending tests: python -m unittest code/TextGamePrototype_TestEndings.py
 
 Documentation
-docs/TwentyOnePllotsInitialConceptWrittenScript.txt – Initial game concept prototype script
-docs/TwentyOnePllotsPseudocode.txt - Edexcel iGCSE Computer Science standard Pseudocode for the game
+[docs/TwentyOnePllotsInitialConceptWrittenScript.txt](docs/TwentyOnePllotsInitialConceptWrittenScript.txt) – Initial game concept prototype script
+[docs/TwentyOnePllotsPseudocode.txt](docs/TwentyOnePllotsPseudocode.txt) - Edexcel iGCSE Computer Science standard Pseudocode for the game
 
 Flowcharts
-docs/MainTwentyOnePllotsFlowchart.png – Game logic flowchart
+[docs/MainTwentyOnePllotsFlowchart.png](docs/MainTwentyOnePllotsFlowchart.png) – Game logic flowchart
 TO DO - New fearures flowcharts showing later design modifications
 
 Screenshots of Gameplay
-docs/TwentyOnePllotsScreenshot1.png – Gameplay screenshot (raw image)
+[docs/TwentyOnePllotsScreenshot1.png](docs/TwentyOnePllotsScreenshot1.png) – Gameplay screenshot (raw image)
 
 License
 This project is licensed under the Apache License 2.0 – see the LICENSE file for details.
