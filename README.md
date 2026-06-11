@@ -28,7 +28,7 @@ Screenshot showing initial options and a single selection
 
 Code
 
-[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb) – Interactive notebook
+[code/TwentyOnePIlots.ipynb](code/TwentyOnePIlots.ipynb) – Interactive notebook
 
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
 
