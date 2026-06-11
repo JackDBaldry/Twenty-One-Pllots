@@ -1,0 +1,40 @@
+Twenty One Plots Initial Concept Written Script
+
+It’s a gloomy, cold, winter day. You're driving your rustbucket of a car down country lanes. U hear a loud clonk noise as you're driving along. You begin to see sparks. What do you do?
+A1: Come to a controlled stop, get out of the car and examine it.
+A2: Jump out of the car at full speed into a field that's coming up on your left.
+
+A1 Outcome: Your car bursts into flames while you’re still in it, you die. (Fail)
+A2 Outcome: You land on the field and manage to get out with just a grazed arm.
+
+A2 Path: Once you recover from jumping out of the car, you notice two paths, one going seemingly towards a forest (A2.B1) and the other down a steep hill (A2.B2). Which one do you go down?
+A2.B1 Path: You find a hut and can’t hear or see anyone inside, do you go inside?
+A2.B1.C1 Outcome: There was an arrow trap waiting for you inside, you die. (Fail)
+A2.B1.C2: Path: You continue down the path and come across a random group of campers, you can’t tell whether they are hostile or not, do you stay?
+A2.B1.C2.D1 Outcome: You decide to ask to join them but they get angry and throw you on the fire, you die. (Fail)
+A2.B1.C2.D2 Outcome: You decide to ignore them but there is no supplies down the rest of the path so die of dehydration. (Fail)
+
+.A2.B2 Path: You wander down the steep hill which leads to a trench. You keep moving through the trench but happen to notice a red figure following you in the distance, what do you do?
+A2.B2.C3 Outcome: Runaway from it immediately, unfortunately it’s on a horse so catches you anyways (No evil black goop given to your character).
+A2.B2.C4 Outcome: If you decide to scope out the threat, it catches you sooner (giving you +2 evil black goop).
+
+
+A2.B2.C3 Path: It takes you to a city called Dema which you can’t leave. You decide to take a look around and come across some boxes, do you open the left or right box?
+A2.B2.C3.D3 Outcome: You open the left one (+1 YBC).
+A2.B2.C3.D4 Outcome: You open the right one (+1 BG)
+
+A2.B2.C3/4 Path: Some people who you don’t recognise but are called Banditos come to save you from Dema and offer you a jumpsuit to join them, what do you do?
+A2.B2.C3/4.D5 Outcome: You decline and are stuck in Dema forever. (Fail)
+A2.B2.C3/4.D6 Outcome: You put on the jumpsuit using YBC and join them, they rescue you from Dema.
+
+A2.B2.C3/4.D6 Path: Once out of Dema, they take you down a long path. It leads to a campsite, do you stay the night?
+A2.B2.C3/4.D6.E1 Outcome: You decide not to stay, it catches up with you in the night and re-captures you, you get taken back to Dema. The Banditos don’t know where you went so you’re stuck in Dema forever. (Fail)
+A2.B2.C3/4.D6.E2 Path: You’re all sat round the campfire, do you talk to anyone ?
+A2.B2.C3/4.D6.E2.F1 Path: You decide to get an early night's rest and leave everyone alone until morning.
+A2.B2.C3/4.D6.E2.F2 Path: You talk to the Torchbearer and a couple of other Banditos which give you some useful background information on where you are, then you get some sleep for the day ahead.
+A2.B2.C3/4.D6.E2.F1/2 Path: You wake up and leave the camp and head back to the trench. It is chasing after you again. Do you fight back or run again?
+A2.B2.C3/4.D6.E2.F1/2.G1 Outcome: You decide to run and get caught again. It takes you back to Dema where you are stuck forever. (Fail)
+A2.B2.C3/4.D6.E2.F1/2.G2 Path: You decide to fight. Depending on how much BG you collected is how well it will go.
+A2.B2.C3/4.D6.E2.F1/2.G2.H1 Path: If you have 3BG, you get a bad ending. You attempt to fight it but you die in the process. (Fail)
+A2.B2.C3/4.D6.E2.F1/2.G2.H2 Path: If you have 1BG, you get a true ending. You fight it and defeat it, but turn to the dark side since there was BG in you. (True Ending)
+A2.B2.C3/4.D6.E2.F1/2.G2.H3 Path: If you have no Bg then you get a good ending. You fight it and defeat it. You’re saved. (Good Ending).
