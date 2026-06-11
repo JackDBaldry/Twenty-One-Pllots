@@ -19,7 +19,7 @@ Screenshot
 Screenshot showing initial options and a single selection
 
 Code
-code/TwentyOnePllots.ipynb – Interactive notebook
+(code/TwentyOnePllots.ipynb) – Interactive notebook
 code/TwentyOnePllots.py – Plain Python script
 code/TwentyOnePllots_TestSuite.py – Plain Python script of automated tests for each story ending
 How to Open
