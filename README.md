@@ -4,7 +4,7 @@ Text based twenty one pilots adventure game in python.
 
 Text-Game-Prototype
 
-[![Open In Colab]](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePIlots.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePIlots.ipynb)
 
 
 Python text game prototype for Edexcel iGCSE Computer Science students.
@@ -41,7 +41,7 @@ Screenshot showing initial options and a single selection
 
 Click `[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb)' to view directly.
 
-**In Google Colab:** [![Open In Colab]](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePIlots.ipynb)
+**In Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePIlots.ipynb)
 
 **Locally:** 
 
