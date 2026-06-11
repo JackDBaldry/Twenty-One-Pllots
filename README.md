@@ -35,7 +35,7 @@ Screenshot showing initial options and a single selection
 
 [code/TwentyOnePllots_TestingSuite.py](code/TwentyOnePllots_TestingSuite.py) – Plain Python script of automated tests for each story ending
 
-##How to Open
+##How to Open##
 
 **On GitHub:**
 
