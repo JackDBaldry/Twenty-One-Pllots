@@ -10,7 +10,7 @@ Python text game prototype for Edexcel iGCSE Computer Science students.
 
 This project demonstrates key programming concepts such as loops, conditionals, functions, and user input/output. It is intended as a learning resource.
 
-**Features**
+## Features
 
 Multiple endings based on player choices
 
@@ -22,11 +22,7 @@ Player Inventory
 
 Written as a Jupyter/Colab notebook.
 
-**Screenshots**
-
-Screenshot showing initial options and a single selection
-
-**Code**
+## Code
 
 [code/TwentyOnePIlots.ipynb](code/TwentyOnePIlots.ipynb) – Interactive notebook
 
@@ -34,7 +30,7 @@ Screenshot showing initial options and a single selection
 
 [code/TwentyOnePllots_TestingSuite.py](code/TwentyOnePllots_TestingSuite.py) – Plain Python script of automated tests for each story ending
 
-**How to Open**
+## How to Open**
 
 **On GitHub:**
 
@@ -50,7 +46,7 @@ Download the file and open with Jupyter Notebook.
 
 To run all automated ending tests: python -m unittest code/TextGamePrototype_TestEndings.py
 
-**Documentation**
+## Documentation
 
 [docs/TwentyOnePllotsInitialConceptWrittenScript.txt](docs/TwentyOnePllotsInitialConceptWrittenScript.txt) – Initial game concept prototype script
 
@@ -66,10 +62,10 @@ To run all automated ending tests: python -m unittest code/TextGamePrototype_Tes
 
 [docs/TwentyOnePllotsScreenshot1.png](docs/TwentyOnePllotsScreenshot1.png) – Gameplay screenshot (raw image)
 
-**License**
+## License
 
 This project is licensed under the Apache License 2.0 – see the [LICENSE](LICENSE) file for details.
 
-**Challenges**
+## Challenges
 
 To create a simple, easy to understand text based game in Python that coveres the full development cycle to allow students to see how a game goes from an idea to an implementation. It is a framework for them to be able to customise and adapt to build their own game
