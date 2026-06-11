@@ -20,7 +20,9 @@ Screenshot showing initial options and a single selection
 
 Code
 [code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb) – Interactive notebook
+
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
+
 [code/TwentyOnePllots_TestSuite.py](code/TwentyOnePllots_TestSuite.py) – Plain Python script of automated tests for each story ending
 
 How to Open
@@ -37,10 +39,12 @@ To run all automated ending tests: python -m unittest code/TextGamePrototype_Tes
 
 Documentation
 [docs/TwentyOnePllotsInitialConceptWrittenScript.txt](docs/TwentyOnePllotsInitialConceptWrittenScript.txt) – Initial game concept prototype script
+
 [docs/TwentyOnePllotsPseudocode.txt](docs/TwentyOnePllotsPseudocode.txt) - Edexcel iGCSE Computer Science standard Pseudocode for the game
 
 Flowcharts
 [docs/MainTwentyOnePllotsFlowchart.png](docs/MainTwentyOnePllotsFlowchart.png) – Game logic flowchart
+
 TO DO - New fearures flowcharts showing later design modifications
 
 Screenshots of Gameplay
