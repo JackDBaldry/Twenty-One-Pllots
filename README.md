@@ -32,7 +32,7 @@ Code
 
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
 
-[code/TwentyOnePllots_TestSuite.py](code/TwentyOnePllots_TestSuite.py) – Plain Python script of automated tests for each story ending
+[code/TwentyOnePllots_TestingSuite.py](code/TwentyOnePllots_TestingSuite.py) – Plain Python script of automated tests for each story ending
 
 How to Open
 
