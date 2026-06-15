@@ -24,7 +24,7 @@ Written as a Jupyter/Colab notebook.
 
 ## Code
 
-[code/TwentyOnePIlots.ipynb](code/TwentyOnePllots.ipynb) – Interactive notebook
+[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb) – Interactive notebook
 
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
 
