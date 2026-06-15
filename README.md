@@ -4,7 +4,7 @@ Text based twenty one pilots adventure game in python.
 
 Text-Game-Prototype
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePIlots.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
 
 Python text game prototype for Edexcel iGCSE Computer Science students.
 
@@ -24,7 +24,7 @@ Written as a Jupyter/Colab notebook.
 
 ## Code
 
-[code/TwentyOnePIlots.ipynb](code/TwentyOnePIlots.ipynb) – Interactive notebook
+[code/TwentyOnePIlots.ipynb](code/TwentyOnePllots.ipynb) – Interactive notebook
 
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
 
@@ -36,7 +36,7 @@ Written as a Jupyter/Colab notebook.
 
 Click `[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb)' to view directly.
 
-**In Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePIlots.ipynb)
+**In Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
 
 **Locally:** 
 
@@ -44,7 +44,7 @@ Download the file and open with Jupyter Notebook.
 
 **Tests**
 
-To run all automated ending tests: python -m unittest code/TextGamePrototype_TestEndings.py
+## To run all automated ending tests: python -m unittest code/TextGamePrototype_TestEndings.py
 
 ## Documentation
 
