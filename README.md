@@ -73,7 +73,11 @@ This project is licensed under the Apache License 2.0 – see the [LICENSE](LICE
 ## Challenges
 
 First major code application (Time w3schools, personal research, used to colab IDE and debugging tools)
+
 Mapping the branching structure to reach all endings (Doing flowcharts and pseduocode)
+
 Figuring out dema puzzle logic (Doing flowcharts and pseudocode and lots testing)
+
 Testing (Getting blackbox testing with external users to test gameplay)
+
 Team coding (Problems: Source control, labour division. Solution: Task allocation and communication
