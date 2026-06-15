@@ -2,23 +2,25 @@
 
 Text based twenty one pilots adventure game in python.
 
-Text-Game-Prototype
-
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
 
-Python text game prototype for Edexcel iGCSE Computer Science students.
-
-This project demonstrates key programming concepts such as loops, conditionals, functions, and user input/output. It is intended as a learning resource.
+This project demonstrates key programming concepts such as loops, conditionals, functions, and user input/output.
 
 ## Features
 
-Multiple endings based on player choices
+Morality score (Screenshots plot description)
 
-Branching story logic
+Puzzle structure (Screenshots cant defeat dragon)
 
-Looping
+Menu (Screenshots dema districts)
 
-Player Inventory
+Multiple endings based on player choices (Screenshots hero, simple, broke and villain ending)
+
+Branching story logic (Screenshots add item to inventory, have item and not have time)
+
+Looping validation (Screenshots looping validation)
+
+Player Inventory (Screenshots have inventory item)
 
 Written as a Jupyter/Colab notebook.
 
@@ -61,6 +63,8 @@ Download the file and open with Jupyter Notebook.
 **Screenshots of Gameplay**
 
 [docs/TwentyOnePllotsScreenshot1.png](docs/TwentyOnePllotsScreenshot1.png) – Gameplay screenshot (raw image)
+
+Add links to all screenshot file names
 
 ## License
 
