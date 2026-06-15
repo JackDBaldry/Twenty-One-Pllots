@@ -1,1 +1,441 @@
 Twenty One Pllots Pseudocode
+
+#GLOBAL VARIABLES
+
+#Declare the main game variables. Tell the computer what they are and what sort of value they hold
+
+DECLARE choice : STRING
+
+#Black Goop collected
+
+DECLARE BG : INTEGER
+
+#Yellow Box Coins (or similar)
+
+DECLARE YBC : INTEGER
+
+#Tells the computer that the game can either be actively running or not, true or false
+
+DECLARE gameOn : BOOLEAN
+
+
+# MAIN PROGRAM
+
+#The main game set up procedure, setting all of the global variables to a base setting until told otherwise
+
+PROCEDURE MAIN()
+
+    #This is what sets the game off
+    
+   CALL SCENE_A()
+END PROCEDURE
+
+# SCENE A – Car Incident
+
+PROCEDURE SCENE_A()
+    
+#This displays the text on the screen to describe the first scene and gives the user their first options
+ 
+    SEND "It’s a gloomy, cold, winter day. You're driving your rustbucket of a car down country lanes." TO DISPLAY 
+    SEND "You hear a loud clonk noise and begin to see sparks." TO DISPLAY
+    SEND "What do you do?" TO DISPLAY
+    SEND "A1: Controlled stop and examine car." TO DISPLAY
+    SEND "A2: Jump out into a field." TO DISPLAY
+
+    #Get choice from the user
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+ 
+    #Shows what will happen dependant on the choice that is made
+   
+    IF choice == "A1" THEN
+        
+#If the player chooses wrong, a fail message is sent to the screen
+        
+     SEND "Your car bursts into flames while you’re still in it. You die. (Fail)" TO DISPLAY
+        
+       #Game over 
+
+        SET gameOn TO FALSE
+    ELSE IF choice == "A2" THEN
+        SEND "You land safely with only a grazed arm." TO DISPLAY
+       
+     #Move on
+
+        CALL SCENE_A2()
+    ELSE
+        CALL SCENE_A() # re-ask if invalid
+    END IF
+END PROCEDURE
+
+# SCENE A2 – Two Paths
+
+#Procedure to run the next scene intro
+
+PROCEDURE SCENE_A2()
+
+    #This is what will be displayed to the player on their screen
+
+    SEND "You notice two paths:" TO DISPLAY 
+    SEND "B1: Towards a forest." TO DISPLAY
+    SEND "B2: Down a steep hill." TO DISPLAY
+    
+    #This is what the computer receives from the player
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+
+    IF choice == "B1" THEN
+
+        #If the player inputs B1, it will run the procedure for scene A2 B1
+
+        CALL SCENE_A2_B1()
+    ELSE IF choice = "B2" THEN
+
+        #If the player doesn’t pick B1 then this is the other option and will run this scene instead.
+
+        CALL SCENE_A2_B2()
+    ELSE
+
+        #If the player inputs anything else which would be invalid, restart current scene to start again
+
+        CALL SCENE_A2()
+    END IF
+END PROCEDURE
+
+#SCENE A2.B1 – Forest & Hut
+
+#Procedure to run this scene intro
+
+PROCEDURE SCENE_A2_B1()
+
+    #This is what will be sent to the screen and displayed to the player
+
+    SEND "You find a hut. Do you go inside?" TO DISPLAY
+    SEND "C1: Go inside." TO DISPLAY
+    SEND "C2: Stay outside and continue." TO DISPLAY
+
+    #This is what the computer receives from the player
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+
+    #Shows the input needed to run this sequence of events
+
+    IF choice == "C1" THEN
+
+        #This shows the player what has happened by sending this message to the display
+
+        SEND "Arrow trap inside the hut. You die. (Fail)" TO DISPLAY
+
+        #This triggers a game over, the game is no longer running
+
+        SET gameOn TO FALSE
+    ELSE IF choice == "C2" THEN
+
+        #Options are sent to the display to show player what will happen next
+
+        SEND "You continue and meet random campers. They may be hostile." TO DISPLAY
+        SEND "D1: Ask to join them." TO DISPLAY
+        SEND "D2: Ignore them and continue." TO DISPLAY
+
+        #This is the string the computer receives from the player
+
+        RECEIVE choice FROM (STRING) KEYBOARD
+
+
+        #Shows the input needed to trigger this set of events
+
+        IF choice == "D1" THEN
+
+            #What is sent to the display if they choose D1
+
+            SEND "They throw you on the fire. You die. (Fail)" TO DISPLAY
+
+            #Since they made the wrong choice it stops the game from running
+
+            SET gameOn TO FALSE
+        ELSEIF choice == "D2" THEN
+
+            #Displays a game over message on the screen
+
+            SEND "No supplies. You die of dehydration. (Fail)" TO DISPLAY
+
+            #Since they made the wrong choice it stops the game from running
+
+            SET gameOn TO FALSE
+        ELSE
+
+            #Restarts the current scene to re-ask after receiving an invalid input
+
+            CALL SCENE_A2_B1()
+        END IF
+    ELSE
+
+        #If the player gives an invalid input, restart the current scene to re-ask
+
+        CALL SCENE_A2_B1()
+    END IF
+END PROCEDURE
+
+#A2.B2 – Steep Hill & Trench
+
+#Establishes the procedure to run the next scene
+
+PROCEDURE SCENE_A2_B2()
+
+    #Sends the following messages for the next decision to the screen
+
+    SEND "You wander down the steep hill into a trench." TO DISPLAY
+    SEND "A red figure is following you." TO DISPLAY
+    SEND "C3: Run away immediately." TO DISPLAY
+    SEND "C4: Scope out the threat." TO DISPLAY
+
+    #The computer receives a word input from the player’s computer
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+
+    #Shows what will happen dependant on the choice they made
+
+    IF choice == "C3" THEN
+
+        #Displays this event description message to the screen
+
+        SEND "It catches you on a horse (no BG gained)." TO DISPLAY
+        CALL SCENE_DEMA(FALSE)
+
+    #Conditional that selects a path depending on player’s input
+
+    ELSE IF choice == "C4" THEN
+
+        #This is sent to the display if choice C4 is picked
+
+        SEND "It catches you sooner (+2 BG)." TO DISPLAY
+
+        #Updates the integer value of BG
+
+        SET BG TO BG + 2
+        CALL SCENE_DEMA(TRUE)
+    ELSE
+
+        #Re-calls the scene if there is an invalid input
+
+        CALL SCENE_A2_B2()
+    END IF
+END PROCEDURE
+
+#Dema City Branch
+
+#Establishes the procedure to run the next scene in Dema and declares whether or not the player has gained BG
+
+PROCEDURE SCENE_DEMA(capturedWithBG : BOOLEAN)
+
+    #The text is sent to the display for the player to read based on what is happening in the game
+
+    SEND "You are taken to a city called Dema. You cannot leave." TO DISPLAY
+    SEND "You see two boxes." TO DISPLAY
+    SEND "D3: Open left box (+1 YBC)." TO DISPLAY
+    SEND "D4: Open right box (+1 BG)." TO DISPLAY
+    
+    #The selection received by the computer from the player
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+    
+    #Shows the sequence of events dependant on what their choice is
+
+    IF choice == "D3" THEN
+
+        #Increases the YBC counter by 1 by settings the INTEGER of YBC to +1
+
+        SET YBC TO YBC + 1
+    ELSE IF choice = "D4" THEN
+
+        #Increases the BG counter by 1 by setting the INTEGER of BG to +1
+
+        SET BG TO BG + 1
+    ELSE
+
+        #Re-calls the scene if there has been an invalid input from the player
+
+        CALL SCENE_DEMA(capturedWithBG)
+        RETURN
+    END IF
+    #
+    CALL SCENE_BANDITOS()
+END PROCEDURE
+
+#Banditos Encounter
+
+#The next procedure which will advance to the next scene in the game
+
+PROCEDURE SCENE_BANDITOS()
+
+    #Sends messages to the screen to describe the current scene and show the player their current valid options
+  
+    SEND "Banditos arrive and offer you a jumpsuit to join them." TO DISPLAY
+    SEND "D5: Decline." TO DISPLAY
+    SEND "D6: Put on jumpsuit (requires YBC)." TO DISPLAY
+
+    #Depending on the choice made this shows what will happen
+
+    IF choice == "D5" THEN
+        SEND "You stay trapped in Dema forever. (Fail)" TO DISPLAY
+
+        #Triggers a game over response, turning the game off
+
+        SET gameOn TO FALSE
+    ELSE IF choice == "D6" THEN
+
+        #If the YBC count is below 1 then you automatically lose as you can’t progress without at least 1 YBC
+
+        IF YBC >= 1 THEN
+            SEND "You join the Banditos and escape Dema." TO DISPLAY
+
+            #Triggers the camp scene depending on YBC integer value
+
+            CALL SCENE_CAMP()
+
+        #This is triggered if you have no YBC
+
+        ELSE
+            SEND "You cannot pay. You remain in Dema. (Fail)" TO DISPLAY
+
+            #Triggers a game over reaction and turns the game off
+
+            SET gameOn TO FALSE
+        END IF
+
+    #The only other option that can take place
+
+    ELSE
+
+        #Re-calls the scene if there was an invalid input
+
+        CALL SCENE_BANDITOS()
+    END IF
+END PROCEDURE
+
+#Campsite Scene
+
+#The procedure for the camp scene, sending messages to the screen to describe scene and provide the player with the valid choices
+
+PROCEDURE SCENE_CAMP()
+    SEND "The Banditos lead you to a campsite." TO DISPLAY
+    SEND "E1: Leave immediately." TO DISPLAY
+    SEND "E2: Stay the night." TO DISPLAY
+
+    #The selection the computer receives from the player
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+    
+   #Depending on the choice made this shows what will happen
+
+    IF choice == "E1" THEN
+        SEND "It finds you at night and re-captures you. Stuck in Dema forever. (Fail)" TO DISPLAY
+
+        #Triggers the game over response and ends the game
+
+        SET gameOn TO FALSE
+    ELSE IF choice == "E2" THEN
+
+        #Triggers the campfire scene
+
+        CALL SCENE_CAMPFIRE()
+    ELSE
+
+        #Re-calls the scene if there was an invalid input
+
+        CALL SCENE_CAMP()
+    END IF
+END PROCEDURE
+
+#Campfire Conversation
+
+#Starts the procedure for the next scene in game 
+
+PROCEDURE SCENE_CAMPFIRE()
+    SEND "You are around the campfire." TO DISPLAY
+    SEND "F1: Sleep early." TO DISPLAY
+    SEND "F2: Talk to the Torchbearer and others (gain info)." TO DISPLAY
+
+    #The selection the computer receives from the player
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+
+    #This shows what will happen dependant on what the player has chosen
+
+    IF choice == "F1" OR choice == "F2" THEN
+
+        #Triggers the final battle scene
+
+        CALL SCENE_FINALBATTLE()
+    ELSE
+
+        #Re-calls the scene if there was an invalid input
+
+        CALL SCENE_CAMPFIRE()
+    END IF
+END PROCEDURE
+
+#Final Battle
+
+#The trigger to proceed to the next scene in the game
+
+PROCEDURE SCENE_FINALBATTLE()
+    SEND "Next morning you leave the camp and the red figure chases you again." TO DISPLAY
+    SEND "G1: Run away." TO DISPLAY
+    SEND "G2: Fight." TO DISPLAY
+
+    #The selection the computer receives from the player
+
+    RECEIVE choice FROM (STRING) KEYBOARD
+
+    #Depending on the choice made by the user this shows the outcome
+
+    IF choice == "G1" THEN
+        SEND "You are caught and returned to Dema. (Fail)" TO DISPLAY
+
+        #Triggers a game over response and turns the game off
+
+        SET gameOn TO FALSE
+    ELSE IF choice == "G2" THEN
+
+        #Triggers the final result scene
+
+        CALL SCENE_FIGHTRESULT()
+    ELSE
+
+        #Re-calls the scene if there were any invalid inputs
+
+        CALL SCENE_FINALBATTLE()
+    END IF
+END PROCEDURE
+
+# Fight Result Depending on BG
+
+#Triggers the next scene to occur 
+
+PROCEDURE SCENE_FIGHTRESULT()
+
+    #Determines if the integer value of BG is equal to 3. If it is, it sends the below message to the screen
+
+    IF BG >= 3 THEN
+        SEND "You attempt to fight but die. (Fail)" TO DISPLAY
+
+    #If BG is equal to INTEGERS 1 or 2 then it causes the “True Ending” to happen
+    ELSE IF BG = 1 OR BG = 2 THEN
+
+        SEND "You defeat it but turn to the dark side. (True Ending)" TO DISPLAY
+
+    #If the BG integer value is anything other than 1, 2 or 3 (0 being the only other possible value) it triggers the good ending message
+
+    ELSE
+        SEND "You defeat it and are saved. (Good Ending)" TO DISPLAY
+    END IF
+
+    #Stops the game from being on as there are no more procedures/scenes to happen
+
+    SET gameOn TO FALSE
+END PROCEDURE
+
+#PROGRAM START
+
+CALL MAIN()
