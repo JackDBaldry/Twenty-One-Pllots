@@ -6,8 +6,6 @@ Text-Game-Prototype
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
-
 Python text game prototype for Edexcel iGCSE Computer Science students.
 
 This project demonstrates key programming concepts such as loops, conditionals, functions, and user input/output. It is intended as a learning resource.
