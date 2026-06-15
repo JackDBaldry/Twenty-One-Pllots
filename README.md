@@ -1,6 +1,6 @@
 ## Twenty-One-Pllots
 
-Text based twenty one pilots adventure game in python.
+Twenty One Pllots is a text based adventure game in the style of Zork inspired by Twenty One Pilots lore. The user plays as the character Clancy from the lore as he faces his nemesis Nico. The game starts with Clancy in a car which blows up, stranding him in the middle of nowhere. Nico is threatening to try and capture Clancy. The main goal is to evade Nico, defeat him and decide the fate of the city of Dema. If you manage to defeat Nico your moral score will determine the fate of Dema.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
 
@@ -56,7 +56,7 @@ Download the file and open with Jupyter Notebook.
 
 **Flowcharts**
 
-[docs/MainTwentyOnePllotsFlowchart.png](docs/MainTwentyOnePllotsFlowchart.png) – Game logic flowchart
+[docs/MainTwentyOnePllotsFlowchart.png](docs/MainTwentyOnePllotsFlowchart.png) – Initial Game logic flowchart
 
 **TO DO** - New fearures flowcharts showing later design modifications
 
@@ -72,4 +72,8 @@ This project is licensed under the Apache License 2.0 – see the [LICENSE](LICE
 
 ## Challenges
 
-To create a simple, easy to understand text based game in Python that coveres the full development cycle to allow students to see how a game goes from an idea to an implementation. It is a framework for them to be able to customise and adapt to build their own game
+First major code application (Time w3schools, personal research, used to colab IDE and debugging tools)
+Mapping the branching structure to reach all endings (Doing flowcharts and pseduocode)
+Figuring out dema puzzle logic (Doing flowcharts and pseudocode and lots testing)
+Testing (Getting blackbox testing with external users to test gameplay)
+Team coding (Problems: Source control, labour division. Solution: Task allocation and communication
