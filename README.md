@@ -125,8 +125,6 @@ Download the file and open with Jupyter Notebook.
 
 Add links to all screenshot file names
 
-[Screenshots for TwentyOnePllots.zip](https://github.com/user-attachments/files/29098490/Screenshots.for.TwentyOnePllots.zip)
-
 
 ## License
 
