@@ -73,11 +73,16 @@ This project is licensed under the Apache License 2.0 – see the [LICENSE](LICE
 ## Challenges
 
 First major code application (Time w3schools, personal research, used to colab IDE and debugging tools)
+Since we were making this during time I was still learning to code, it made it difficult. What helped me was using w3schools and other personal research on coding so that way the code was efficient and actually worked.
 
 Mapping the branching structure to reach all endings (Doing flowcharts and pseduocode)
+Another challenge was figuring out how to reach all the different endings in the game since there are 13 different endings. The intial flowcharts and pseudocode helped with this as it gave a solid foundation for us to build off of and helped to make sure it all functioned as it should.
 
 Figuring out dema puzzle logic (Doing flowcharts and pseudocode and lots testing)
+We applied similar logic when it came to doing the dema section of the game as this has lots of little sections and was difficult to make. Since there were no intial flowcharts or pseudocode for these sections of the game, we made new ones for this section of the game which made it much easier to figure out how to get all of the logic working. We also made sure we tested all of the possible outcomes each time we made any changes to the code to make sure it still worked as it should.
 
 Testing (Getting blackbox testing with external users to test gameplay)
+We needed a good way to test whether the game was user friendly and made sense to someone who had no involvement in the devolopment of the game, so we did blackbox testing to ensure it all worked smoothly and in an understandable way.
 
 Team coding (Problems: Source control, labour division. Solution: Task allocation and communication
+Since it was a team project, it came with issues such as source control and labour division. To overcome these issues we would use task allocation and good communication to make sure that we either weren't working on an important task or that we were both working on the same thing when we didn't need to be.
