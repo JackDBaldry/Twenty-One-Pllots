@@ -117,6 +117,10 @@ To run all automated ending tests: python -m unittest code/TwentyOnePllots_Testi
 
 [docs/MainTwentyOnePllotsFlowchart.png](docs/MainTwentyOnePllotsFlowchart.png) – Initial Game logic flowchart
 
+[docs/TwentyOnePllots_Dema_Flowchart.png](docs/TwentyOnePllots_Dema_Flowchart.png) - Dema logic flowchart
+
+[docs/TwentyOnePllots_CREDITS_Flowchart.png](docs/TwentyOnePllots_CREDITS_Flowchart.png) - Credits logic flowchart
+
 **TO DO** - New fearures flowcharts showing later design modifications
 
 **Screenshots of Gameplay**
