@@ -8,7 +8,7 @@ This project demonstrates key programming concepts such as loops, conditionals, 
 
 ## Features
 
-We added an Easter egg where if you type "Clancy" then it gives you a different message to for example typing in your own name. 
+We added an Easter egg where if you type "Clancy" then it gives you a different message than for example typing in your own name. 
 
 Generic username:
 <img width="1976" height="427" alt="Genericusernamept1" src="https://github.com/user-attachments/assets/2e9688bb-6817-4de4-b5e4-acf4a4bbaaf5" />
