@@ -123,7 +123,7 @@ To run all automated ending tests: python -m unittest code/TwentyOnePllots_Testi
 
 **Screenshots of Gameplay**
 
-[images](images) – Gameplay screenshots (raw images)
+[Gameplay screenshots (raw images)](images)
 
 Add links to all screenshot file names
 
