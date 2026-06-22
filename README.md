@@ -125,8 +125,6 @@ To run all automated ending tests: python -m unittest code/TwentyOnePllots_Testi
 
 [Gameplay screenshots (raw images)](images)
 
-Add links to all screenshot file names
-
 
 ## License
 
