@@ -105,7 +105,7 @@ Download the file and open with Jupyter Notebook.
 
 **Tests**
 
-## To run all automated ending tests: python -m unittest code/TextGamePrototype_TestEndings.py
+To run all automated ending tests: python -m unittest code/TwentyOnePllots_TestingSuite.py
 
 ## Documentation
 
