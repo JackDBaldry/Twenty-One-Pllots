@@ -18,7 +18,7 @@ Easter egg username:
 <img width="1931" height="346" alt="Eastereggusername" src="https://github.com/user-attachments/assets/65831599-9714-416c-b148-453f69eab7bb" />
 
 
-Morality score (Screenshots plot description)
+We added a morality score wich you gain either good (YBC) or bad (BG) morality score. This in turn can change the outcome or result for differnet aspects of the game.
 
 
 <img width="1922" height="704" alt="Plotdescriptionpt2" src="https://github.com/user-attachments/assets/61b64b1c-3369-45d2-8184-33515d608881" />
