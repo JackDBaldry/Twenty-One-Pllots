@@ -26,7 +26,7 @@ We added a morality score wich you gain either good (YBC) or bad (BG) morality s
 <img width="1969" height="666" alt="Plotdescriptionpt1" src="https://github.com/user-attachments/assets/397e724f-87cc-4eee-be13-4529469ef929" />
 
 
-We added puzzle structure which means you to unlock certain things before being able to do an action. For example, the screenshot shopws you can't defeat the dragon without a weapon. 
+We added puzzle structure which means you have to unlock certain things before being able to do an action. For example, the screenshot shopws you can't defeat the dragon without a weapon. 
 
 
 <img width="1995" height="473" alt="Cantdefeatdragon" src="https://github.com/user-attachments/assets/b5ea65f2-875a-49bf-8e4b-77c3a3e8aeff" />
