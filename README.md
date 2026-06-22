@@ -8,13 +8,13 @@ This project demonstrates key programming concepts such as loops, conditionals, 
 
 ## Features
 
-Easter egg (Screenshots Generic username and Easter egg username)
+We added an Easter egg where if you type "Clancy" then it gives you a different message to for example typing in your own name. 
 
-
+Generic username:
 <img width="1976" height="427" alt="Genericusernamept1" src="https://github.com/user-attachments/assets/2e9688bb-6817-4de4-b5e4-acf4a4bbaaf5" />
 <img width="1956" height="497" alt="Genericusernamept2" src="https://github.com/user-attachments/assets/897bf2fe-dd59-443d-88d8-990d3bd56f21" />
 
-
+Easter egg username:
 <img width="1931" height="346" alt="Eastereggusername" src="https://github.com/user-attachments/assets/65831599-9714-416c-b148-453f69eab7bb" />
 
 
@@ -32,7 +32,7 @@ Puzzle structure (Screenshot shows you can't defeat the dragon without a weapon)
 <img width="1995" height="473" alt="Cantdefeatdragon" src="https://github.com/user-attachments/assets/b5ea65f2-875a-49bf-8e4b-77c3a3e8aeff" />
 
 
-Menu (Screenshots dema districts)
+Menu (Screenshots Dema districts)
 
 
 <img width="1926" height="717" alt="Demadistricts" src="https://github.com/user-attachments/assets/4b9b7ecc-31af-4563-9af5-6e7402e5d47e" />
