@@ -8,11 +8,11 @@ This project demonstrates key programming concepts such as loops, conditionals, 
 
 ## Features
 
-Easter egg (Screenshots Generic username and Easter egg username
+Easter egg (Screenshots Generic username and Easter egg username)
 
 
-<img width="1956" height="497" alt="Genericusernamept2" src="https://github.com/user-attachments/assets/897bf2fe-dd59-443d-88d8-990d3bd56f21" />
 <img width="1976" height="427" alt="Genericusernamept1" src="https://github.com/user-attachments/assets/2e9688bb-6817-4de4-b5e4-acf4a4bbaaf5" />
+<img width="1956" height="497" alt="Genericusernamept2" src="https://github.com/user-attachments/assets/897bf2fe-dd59-443d-88d8-990d3bd56f21" />
 
 
 <img width="1931" height="346" alt="Eastereggusername" src="https://github.com/user-attachments/assets/65831599-9714-416c-b148-453f69eab7bb" />
@@ -21,12 +21,12 @@ Easter egg (Screenshots Generic username and Easter egg username
 Morality score (Screenshots plot description)
 
 
-<img width="1948" height="647" alt="Plotdescriptionpt3" src="https://github.com/user-attachments/assets/1f58baeb-37c1-437c-9426-5882285e59ae" />
 <img width="1922" height="704" alt="Plotdescriptionpt2" src="https://github.com/user-attachments/assets/61b64b1c-3369-45d2-8184-33515d608881" />
+<img width="1948" height="647" alt="Plotdescriptionpt3" src="https://github.com/user-attachments/assets/1f58baeb-37c1-437c-9426-5882285e59ae" />
 <img width="1969" height="666" alt="Plotdescriptionpt1" src="https://github.com/user-attachments/assets/397e724f-87cc-4eee-be13-4529469ef929" />
 
 
-Puzzle structure (Screenshots cant defeat dragon)
+Puzzle structure (Screenshot shows you can't defeat the dragon without a weapon)
 
 
 <img width="1995" height="473" alt="Cantdefeatdragon" src="https://github.com/user-attachments/assets/b5ea65f2-875a-49bf-8e4b-77c3a3e8aeff" />
