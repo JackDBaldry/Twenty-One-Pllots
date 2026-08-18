@@ -130,11 +130,11 @@ To run all automated ending tests: python -m unittest code/TwentyOnePllots_Testi
 
 First major code application 
 
-Since we were making this during the time I was still learning to code, it made it difficult. What helped me was using w3schools and other personal research on coding as well as getting used to the Colab IDE. That way the code was efficient and actually worked.
+Since we were making this during the time I was still learning to code, it made it difficult. What helped me was using W3Schools and other personal research on coding as well as getting used to the Colab IDE. That way the code was efficient and actually worked.
 
 Mapping the branching structure to reach all endings 
 
-Another challenge was figuring out how to reach all the different endings in the game since there are 13 different endings. The initial flowcharts and pseudocode helped with this as they gave a solid foundation for us to build off of and helped to make sure it all functioned as it should.
+Another challenge was figuring out how to reach all the different endings in the game since there are 13 different endings. The initial flowcharts and pseudocode helped with this as they gave a solid foundation for us to build on and helped to make sure it all functioned as it should.
 
 Figuring out Dema puzzle logic
 
@@ -142,11 +142,11 @@ We applied similar logic when it came to doing the Dema section of the game as t
 
 Testing
 
-We needed a good way to test whether the game was user friendly and made sense to someone who had no involvement in the development of the game, so we did black-box testing to ensure it all worked smoothly and in an understandable way.
+We needed a good way to test whether the game was user-friendly and made sense to someone who had no involvement in the development of the game, so we did black-box testing to ensure it all worked smoothly and in an understandable way.
 
 Team coding 
 
-Since it was a team project, it came with issues such as source control and labour division. To overcome these issues we would use task allocation and good communication to make sure that we weren't working on the same important task simultaneously and that everyone had a similar workload.
+Since it was a team project, it came with issues such as source control and labour division. To overcome these issues we used task allocation and good communication to make sure that we weren't working on the same important task simultaneously and that everyone had a similar workload.
 
 
 ## License
