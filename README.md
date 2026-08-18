@@ -126,10 +126,6 @@ To run all automated ending tests: python -m unittest code/TwentyOnePllots_Testi
 [Gameplay screenshots (raw images)](images)
 
 
-## License
-
-This project is licensed under the Apache License 2.0 – see the [LICENSE](LICENSE) file for details.
-
 ## Challenges
 
 First major code application 
@@ -151,3 +147,8 @@ We needed a good way to test whether the game was user friendly and made sense t
 Team coding 
 
 Since it was a team project, it came with issues such as source control and labour division. To overcome these issues we would use task allocation and good communication to make sure that we weren't working on an important task simultaneously and that everyone had a similar workload.
+
+
+## License
+
+This project is licensed under the Apache License 2.0 – see the [LICENSE](LICENSE) file for details.
