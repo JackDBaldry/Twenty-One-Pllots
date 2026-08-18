@@ -1,10 +1,10 @@
 ## Twenty-One-Pllots
 
-Twenty One Pllots is a text based adventure game in the style of Zork inspired by Twenty One Pilots lore. The user plays as the character Clancy from the lore as he faces his nemesis Nico. The game starts with Clancy in a car which blows up, stranding him in the middle of nowhere. Nico is threatening to try and capture Clancy. The main goal is to evade Nico, defeat him and decide the fate of the city of Dema. If you manage to defeat Nico your moral score will determine the fate of Dema.
+Twenty One Pllots is a text-based adventure game in the style of Zork inspired by Twenty One Pilots lore. The user plays as the character Clancy from the lore as he faces his nemesis Nico. The game starts with Clancy in a car which blows up, stranding him in the middle of nowhere. Nico is threatening to try and capture Clancy. The main goal is to evade Nico, defeat him and decide the fate of the city of Dema. If you manage to defeat Nico, your morality score will determine the fate of Dema.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
 
-This project demonstrates key programming concepts such as loops, conditionals, functions, and user input/output.
+This project demonstrates key programming concepts such as loops, condyitionals, functions, and user input/output.
 
 ## Features
 
