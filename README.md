@@ -106,6 +106,7 @@ Written as a Jupyter/Colab notebook.
 [code/TwentyOnePllots_TestingSuite.py](code/TwentyOnePllots_TestingSuite.py) – Plain Python script of automated tests for each story ending
 
 ## How to Open
+>*NA SUGGESTION: MOVE THE CONTENTS OF THIS "HOW TO OPEN" INTO THE "QUICK START" I SUGGESTED. THIS SHOULD BE NEAR THE TOP OF THE README JUST AFTER THE INTRODUCTION AS MOST READERS JUST WANT TO KNOW HOW TO GET GOING FIRST BEFORE READING DETAILS*
 
 **On GitHub:**
 
