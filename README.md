@@ -12,6 +12,14 @@ Twenty One Pllots is a text-based adventure game in the style of Zork inspired b
 
 This project demonstrates key programming concepts such as loops, condyitionals, functions, and user input/output.
 
+>*NA SUGGESTION: MOVE OPEN IN COLAB LINK INTO A NEW QUICK START SECTION, ALONG WITH STEPS ON HOW TO RUN IT*
+>
+>## 🚀 Quick Start
+> 1. Open in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
+> 2. Step 2
+> 3. Step 3
+> 4. Etc
+
 ## Features
 
 We added an Easter egg where if you type "Clancy" then it gives you a different message than for example typing in your own name. Clancy is the main character in Twenty one pilots lore which is why it is an easter egg. 
