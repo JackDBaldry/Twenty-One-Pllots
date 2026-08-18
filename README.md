@@ -1,8 +1,8 @@
 >*NA SUGGESTION: MOARR BADDGEESSSS!*
 >
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
+>[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+>[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+>[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
 ## Twenty-One-Pllots
 
