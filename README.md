@@ -1,99 +1,127 @@
->*NA SUGGESTION: MOARR BADDGEESSSS!*
->
->[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
->[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
->[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
-
 ## Twenty-One-Pllots
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
 
 Twenty One Pllots is a text-based adventure game in the style of Zork inspired by Twenty One Pilots lore. The user plays as the character Clancy from the lore as he faces his nemesis Nico. The game starts with Clancy in a car which blows up, stranding him in the middle of nowhere. Nico is threatening to try and capture Clancy. The main goal is to evade Nico, defeat him and decide the fate of the city of Dema. If you manage to defeat Nico, your morality score will determine the fate of Dema.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
-
 This project demonstrates key programming concepts such as loops, condyitionals, functions, and user input/output.
 
->*NA SUGGESTION: MOVE OPEN IN COLAB LINK INTO A NEW QUICK START SECTION, ALONG WITH STEPS ON HOW TO RUN IT*
->
->## 🚀 Quick Start
-> 1. Open in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
-> 2. Step 2
-> 3. Step 3
-> 4. Etc
+## 🚀 Quick Start
+
+**On GitHub:**
+
+Click [code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb) to view directly.
+
+**In Google Colab:**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
+
+**Locally:**
+
+Download the file and open with Jupyter Notebook.
+
+**Tests:**
+
+To run all automated ending tests:
+
+    python -m unittest code/TwentyOnePllots_TestingSuite.py
 
 ## Features
 
-We added an Easter egg where if you type "Clancy" then it gives you a different message than for example typing in your own name. Clancy is the main character in Twenty one pilots lore which is why it is an easter egg. 
+### Highlights
+
+- [Easter Egg](#easter-egg) – A special response when the player enters "Clancy".
+- [Morality Score](#morality-score) – Player choices affect YBC and BG morality scores.
+- [Puzzle Structure](#puzzle-structure) – Certain actions require the player to unlock or obtain something first.
+- [Dema Menu](#dema-menu) – A menu makes the different areas of Dema clear to the user.
+- [Multiple Endings](#multiple-endings) – Player choices can lead to different endings.
+- [Branching Story Logic](#branching-story-logic) – Player decisions can affect their inventory and progress through the story.
+- [Input Validation](#input-validation) – Invalid input is handled without breaking the game.
+- [Player Inventory](#player-inventory) – Items can be added to the player's inventory.
+
+### Easter Egg
+
+There is an Easter egg where if you type "Clancy" then it gives you a different message than for example typing in your own name. Clancy is the main character in Twenty one pilots lore which is why it is an easter egg.
 
 Generic username:
+
 <img width="1976" height="427" alt="Genericusernamept1" src="https://github.com/user-attachments/assets/2e9688bb-6817-4de4-b5e4-acf4a4bbaaf5" />
 <img width="1956" height="497" alt="Genericusernamept2" src="https://github.com/user-attachments/assets/897bf2fe-dd59-443d-88d8-990d3bd56f21" />
 
 Easter egg username:
+
 <img width="1931" height="346" alt="Eastereggusername" src="https://github.com/user-attachments/assets/65831599-9714-416c-b148-453f69eab7bb" />
 
+### Morality Score
 
-We added a morality score which you gain either good (YBC) or bad (BG) morality score. This in turn can change the outcome or result for different aspects of the game.
-
+The game has a morality score which you gain through either good (YBC) or bad (BG) morality. This in turn can change the outcome or result for different aspects of the game.
 
 <img width="1922" height="704" alt="Plotdescriptionpt2" src="https://github.com/user-attachments/assets/61b64b1c-3369-45d2-8184-33515d608881" />
 <img width="1948" height="647" alt="Plotdescriptionpt3" src="https://github.com/user-attachments/assets/1f58baeb-37c1-437c-9426-5882285e59ae" />
 <img width="1969" height="666" alt="Plotdescriptionpt1" src="https://github.com/user-attachments/assets/397e724f-87cc-4eee-be13-4529469ef929" />
 
+### Puzzle Structure
 
-We added puzzle structure which means you have to unlock certain things before being able to do an action. For example, the screenshot shows you can't defeat the dragon without a weapon. 
-
+The game has a puzzle structure which means you have to unlock certain things before being able to do an action. For example, the screenshot shows you can't defeat the dragon without a weapon.
 
 <img width="1995" height="473" alt="Cantdefeatdragon" src="https://github.com/user-attachments/assets/b5ea65f2-875a-49bf-8e4b-77c3a3e8aeff" />
 
+### Dema Menu
 
-We added a menu which makes the areas of Dema clear to the user. 
-
+A menu makes the areas of Dema clear to the user.
 
 <img width="1926" height="717" alt="Demadistricts" src="https://github.com/user-attachments/assets/4b9b7ecc-31af-4563-9af5-6e7402e5d47e" />
 
+### Multiple Endings
 
-We added multiple different endings which are all based on the players choices. Here are some examples:
+There are multiple different endings which are all based on the players choices. Here are some examples:
 
 This ending shows that the user didn't have enough YBC to go with the Banditos so they are stuck in Dema and lose:
+
 <img width="1950" height="722" alt="BrokeEnding" src="https://github.com/user-attachments/assets/65283134-109f-47a6-807e-579e3000a96e" />
 
 This ending shows that the user were as good as they can be and freed as many districts as possible making it a good ending:
+
 <img width="2027" height="548" alt="Heroending" src="https://github.com/user-attachments/assets/67b1ba7e-8b23-468f-a2cf-1b119a70645d" />
 
 This ending shows a simple death or in other words way to lose:
+
 <img width="1920" height="717" alt="Simpledeathpt1" src="https://github.com/user-attachments/assets/d02a6070-e73d-498f-ab3a-7e2347edaefc" />
 <img width="1945" height="714" alt="Simpledeathpt2" src="https://github.com/user-attachments/assets/d6482576-a650-476a-b626-3fc7a530efe2" />
 
 This ending shows that the user were as bad as they can be making it the bad ending:
+
 <img width="1927" height="746" alt="Badendingpt1" src="https://github.com/user-attachments/assets/81accc6b-f0b1-4d2a-bd08-96bfac48b080" />
 <img width="1876" height="713" alt="Badendingpt2" src="https://github.com/user-attachments/assets/367ab629-e366-4629-9ea6-cd78bced3df0" />
 
-
-Branching story logic.
+### Branching Story Logic
 
 This shows how items get added to the user inventory based off of their decisions:
+
 <img width="1919" height="701" alt="Additemtoinventorypt1" src="https://github.com/user-attachments/assets/e4f28eaf-7c36-4d75-980c-537a0010c717" />
 <img width="1947" height="677" alt="Additemtoinventorypt2" src="https://github.com/user-attachments/assets/f675b056-71eb-4c9f-b982-de6fb76b759f" />
 <img width="1930" height="706" alt="Additemtoinventorypt3" src="https://github.com/user-attachments/assets/8d7be192-223a-4a72-a8d8-4e9d947d29e9" />
 
 This shows what happens when the user has the item required:
+
 <img width="1991" height="476" alt="Haveinventoryitem" src="https://github.com/user-attachments/assets/4ea28df7-e7f5-45e7-80e5-7b04d373b6e8" />
 
 This shows what happens when the user doesn't have the item required:
+
 <img width="1966" height="558" alt="Donthaveinventoryitem" src="https://github.com/user-attachments/assets/37a51f50-dd60-4056-92fc-c6484053885e" />
 
+### Input Validation
 
-We added looping validation to make the sure the game can't break if the user mis-inputs for example a letter instead of a number.
-
+The game uses looping validation to make sure the game can't break if the user mis-inputs for example a letter instead of a number.
 
 <img width="1923" height="709" alt="Loopingvalidation" src="https://github.com/user-attachments/assets/40850fdc-4441-484d-b632-e70a5d6c78dd" />
 
+### Player Inventory
 
-We added a player inventory which can have things added to it.
-
+The game has a player inventory which can have things added to it.
 
 <img width="1991" height="476" alt="Haveinventoryitem" src="https://github.com/user-attachments/assets/dea8911d-e951-4b0e-a201-7c3542a8c170" />
-
 
 Written as a Jupyter/Colab notebook.
 
@@ -104,23 +132,6 @@ Written as a Jupyter/Colab notebook.
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
 
 [code/TwentyOnePllots_TestingSuite.py](code/TwentyOnePllots_TestingSuite.py) – Plain Python script of automated tests for each story ending
-
-## How to Open
->*NA SUGGESTION: MOVE THE CONTENTS OF THIS "HOW TO OPEN" INTO THE "QUICK START" I SUGGESTED. THIS SHOULD BE NEAR THE TOP OF THE README JUST AFTER THE INTRODUCTION AS MOST READERS JUST WANT TO KNOW HOW TO GET GOING FIRST BEFORE READING DETAILS*
-
-**On GitHub:**
-
-Click `[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb)' to view directly.
-
-**In Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
-
-**Locally:** 
-
-Download the file and open with Jupyter Notebook.
-
-**Tests**
-
-To run all automated ending tests: python -m unittest code/TwentyOnePllots_TestingSuite.py
 
 ## Documentation
 
@@ -140,14 +151,13 @@ To run all automated ending tests: python -m unittest code/TwentyOnePllots_Testi
 
 [Gameplay screenshots (raw images)](images)
 
-
 ## Challenges
 
-First major code application 
+First major code application
 
 Since we were making this during the time I was still learning to code, it made it difficult. What helped me was using W3Schools and other personal research on coding as well as getting used to the Colab IDE. That way the code was efficient and actually worked.
 
-Mapping the branching structure to reach all endings 
+Mapping the branching structure to reach all endings
 
 Another challenge was figuring out how to reach all the different endings in the game since there are 13 different endings. The initial flowcharts and pseudocode helped with this as they gave a solid foundation for us to build on and helped to make sure it all functioned as it should.
 
@@ -159,10 +169,9 @@ Testing
 
 We needed a good way to test whether the game was user-friendly and made sense to someone who had no involvement in the development of the game, so we did black-box testing to ensure it all worked smoothly and in an understandable way.
 
-Team coding 
+Team coding
 
 Since it was a team project, it came with issues such as source control and labour division. To overcome these issues we used task allocation and good communication to make sure that we weren't working on the same important task simultaneously and that everyone had a similar workload.
-
 
 ## License
 
