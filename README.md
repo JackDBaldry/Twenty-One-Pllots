@@ -1,4 +1,4 @@
->*NA SUGGESTION: MOARR BADDGEESSSS!
+>*NA SUGGESTION: MOARR BADDGEESSSS!*
 >
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
