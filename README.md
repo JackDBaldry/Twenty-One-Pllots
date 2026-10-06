@@ -1,5 +1,3 @@
->*NA SUGGESTION: MOARR BADDGEESSSS!*
->
 >[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 >[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 >[![License](https://img.shields.io/badge/License-Apache%202.0-blue)](LICENSE)
@@ -12,13 +10,38 @@ Twenty One Pllots is a text-based adventure game in the style of Zork inspired b
 
 This project demonstrates key programming concepts such as loops, condyitionals, functions, and user input/output.
 
->*NA SUGGESTION: MOVE OPEN IN COLAB LINK INTO A NEW QUICK START SECTION, ALONG WITH STEPS ON HOW TO RUN IT*
 >
 >## 🚀 Quick Start
-> 1. Open in Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
-> 2. Step 2
-> 3. Step 3
-> 4. Etc
+
+## Google Colab
+
+Click the Open in Colab button below.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
+
+Once the notebook opens, select Runtime → Run all.
+
+Wait for the code to finish running.
+
+Follow the instructions displayed in the notebook.
+
+Enter your choices when prompted to play the game.
+
+## GitHub
+
+You can view the Jupyter notebook directly on GitHub by clicking:
+
+[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb)
+
+## Locally
+
+Download or clone the repository.
+
+Open code/TwentyOnePllots.ipynb using Jupyter Notebook.
+
+Run the notebook cells from top to bottom.
+
+Follow the instructions displayed in the notebook to play the game.
 
 ## Features
 
@@ -104,19 +127,6 @@ Written as a Jupyter/Colab notebook.
 [code/TwentyOnePllots.py](code/TwentyOnePllots.py) – Plain Python script
 
 [code/TwentyOnePllots_TestingSuite.py](code/TwentyOnePllots_TestingSuite.py) – Plain Python script of automated tests for each story ending
-
-## How to Open
->*NA SUGGESTION: MOVE THE CONTENTS OF THIS "HOW TO OPEN" INTO THE "QUICK START" I SUGGESTED. THIS SHOULD BE NEAR THE TOP OF THE README JUST AFTER THE INTRODUCTION AS MOST READERS JUST WANT TO KNOW HOW TO GET GOING FIRST BEFORE READING DETAILS*
-
-**On GitHub:**
-
-Click `[code/TwentyOnePllots.ipynb](code/TwentyOnePllots.ipynb)' to view directly.
-
-**In Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JackDBaldry/Twenty-One-Pllots/blob/main/code/TwentyOnePllots.ipynb)
-
-**Locally:** 
-
-Download the file and open with Jupyter Notebook.
 
 **Tests**
 
